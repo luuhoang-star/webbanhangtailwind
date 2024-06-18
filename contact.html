@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <style>
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        border: none;
+        border-bottom: 2px solid #ccc;
+        border-radius: 0;
+        padding: 0;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.3s;
+      }
+
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      textarea:focus {
+        outline: none;
+        border-bottom-color: #ffcc00;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      button span {
+        margin-left: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section
+        class="container max-w-screen-xl m-auto flex items-center justify-between py-4"
+      >
+        <img src="./assets/images/logo-contact.png" alt="" />
+        <ul class="flex gap-8 font-medium text-xl">
+          <li class="hover:text-amber-500"><a href="./index.html">Home</a></li>
+          <li class="hover:text-amber-500"><a href="./shop.html">Shop</a></li>
+          <li class="hover:text-amber-500"><a href="./about.html">About</a></li>
+          <li class="hover:text-amber-500">
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="flex gap-4">
+          <span class="material-symbols-outlined"> person </span>
+          <span class="material-symbols-outlined">search</span>
+          <span class="material-symbols-outlined">favorite</span>
+          <span class="material-symbols-outlined">shopping_cart</span>
+        </div>
+      </section>
+      <!--Navigation Bar-->
+
+      <section>
+        <img class="w-full" src="./assets/images/banner-contact.jpg" alt="" />
+      </section>
+    </header>
+    <main>
+      <section class="bg-[#FEFEFE] py-16">
+        <div class="flex justify-around items-start p-8 bg-white">
+          <!-- Address Section -->
+          <div class="flex items-start space-x-4">
+            <img
+              src="./assets/images/diadiem.png"
+              alt="Address Icon"
+              class="border border-solid border-yellow-600 p-3"
+            />
+            <div>
+              <h2 class="font-bold mb-6 mt-5">ADDRESS</h2>
+              <p class="text-[#71717A] font-medium">
+                60/850 Đường Láng, Láng<br />Thượng, Đống Đa, Hà Nội
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact Details Section -->
+          <div class="flex items-start space-x-4">
+            <img
+              src="./assets/images/connguoi.png"
+              alt="Contact Icon"
+              class="border border-solid border-yellow-600 p-3"
+            />
+            <div>
+              <h2 class="font-bold mb-6 mt-5">CONTACT DETAILS</h2>
+              <p class="text-[#71717A] font-medium">
+                info@furniro.com<br /><span class="font-bold text-xl"
+                  >02056278686</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- Social Networks Section -->
+          <div class="flex items-start space-x-4">
+            <img
+              src="./assets/images/3khuc.png"
+              alt="Social Icon"
+              class="border border-solid border-yellow-600 p-3"
+            />
+            <div>
+              <h2 class="font-bold mb-6 mt-5">SOCIAL NETWORKS</h2>
+              <div class="flex space-x-2 mt-1">
+                <img
+                  src="./assets/images/facebook-square.png"
+                  alt="Facebook"
+                  class="w-7 h-7"
+                />
+                <img
+                  src="./assets/images/instagram.png"
+                  alt="Instagram"
+                  class="w-7 h-7"
+                />
+                <img
+                  src="./assets/images/tiktok.png"
+                  alt="TikTok"
+                  class="w-7 h-7"
+                />
+                <img
+                  src="./assets/images/twitter-square.png"
+                  alt="Twitter"
+                  class="w-7 h-7"
+                />
+                <img
+                  src="./assets/images/youtube-square.png"
+                  alt="YouTube"
+                  class="w-7 h-7"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-full">
+        <div class="grid grid-cols-2">
+          <div>
+            <img
+              src="./assets/images/home-contact.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+          <div class="bg-neutral-100 p-12">
+            <div class="bg-neutral-100 mt-8">
+              <h3 class="text-sm font-bold text-gray-700 mb-4">CONTACT</h3>
+              <h2 class="text-3xl font-extrabold mb-6">CONNECT WITH US NOW</h2>
+              <form>
+                <div class="flex space-x-4 mb-4">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    class="w-1/2 px-4 py-2 bg-neutral-100"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    class="w-1/2 px-4 py-2 bg-neutral-100"
+                  />
+                </div>
+                <div class="flex space-x-4 mb-4">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="w-full px-4 py-2 bg-neutral-100"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    class="w-full px-4 py-2 bg-neutral-100"
+                  />
+                </div>
+                <div class="mb-6">
+                  <input
+                    type="text"
+                    placeholder="Message"
+                    class="w-full px-4 py-2 bg-neutral-100"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  class="bg-yellow-600 text-white px-6 py-2 font-bold hover:bg-yellow-500"
+                >
+                  <span>Send Information</span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#262626] text-white pt-16 pb-8">
+      <div
+        class="container max-w-screen-xl m-auto grid grid-cols-4 gap-8 mb-16"
+      >
+        <div>
+          <img class="mb-4" src="./assets/images/footer-logo.png" alt="" />
+          <p>400 University Drive Suite 200 Coral Gables,FL 33134 USA</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+          <ul>
+            <li class="mb-4"><a href=""></a>Home</li>
+            <li class="mb-4"><a href=""></a>Shop</li>
+            <li class="mb-4"><a href=""></a>About</li>
+            <li><a href=""></a>Contact</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl mb-4">Help</h3>
+          <ul>
+            <li class="mb-4"><a href=""></a>Payment Options</li>
+            <li class="mb-4"><a href=""></a>Returns</li>
+            <li><a href=""></a>Privacy Policies</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-xl mb-4">Location</h3>
+          <ul>
+            <li class="mb-4"><a href=""></a>support@euphoria.in</li>
+            <li class="mb-4"><a href=""></a>Ahmedabad Main Road</li>
+            <li><a href=""></a>Udaipur, India- 313002</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="text-center mt-8">
+        Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
